@@ -1,0 +1,114 @@
+.grid-container{
+    width: 350px;
+    /* height: 350px; */
+    background-color: var(--darkgrey);
+    border: 2px solid var(--darkgrey);
+    border-radius: 0.75rem;
+}
+
+.grid-container:hover{
+    border-color: var(--green);
+    transition: all 0.3s;
+}
+
+.grid-container-red:hover{
+    border-color: var(--red) !important;
+    transition: all 0.3s;
+}
+
+.info-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem; 
+    margin: 1.5rem ;
+}
+
+.coin-logo{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.coin-symbol{
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.coin-name{
+    color: var(--grey);
+    text-transform: capitalize;
+    font-weight: light;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.name-col{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.chip-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin: 1rem 1.5rem;
+}
+
+.price-chip{
+    border: 2px solid var(--green);
+    border-radius: 2rem;
+    padding: 0.35rem 1.25rem;
+    text-align: center;
+    color: var(--green);
+    font-weight: 600;
+    font-size: 1.1rem;
+    min-width: 64px;
+}
+
+.price-chip:hover, .icon-up:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition: all 0.3s;
+}
+.price-red{
+    border: 2px solid var(--red) !important;
+    color: var(--red) !important;
+}
+
+.price-red:hover{
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    transition: all 0.3s;
+}
+.icon-chip{
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--green);
+    font-size: 1.1rem;
+}
+
+.info-container{
+    margin: 1.5rem;
+}
+
+.coin-price{
+    color: var(--green);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.total-volume{
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 500;
+}
